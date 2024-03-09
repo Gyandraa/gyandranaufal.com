@@ -8,7 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
-    background-color: #151925;
+    background-color: #000000;
 }
 
 .home {
@@ -49,7 +49,6 @@ nav ul {
 
 nav ul li {
     float: left;
-
 }
 
 nav ul li a {
@@ -86,18 +85,18 @@ section {
 .deskripsi a {
     margin: 25px;
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 h2 {
     margin: 5px;
     padding: 5px 0px 5px 0px;
-    font-size: 15px;
+    font-size: 16px;
     color: #ffffff;
 }
 
 p {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 h1 {
@@ -116,9 +115,9 @@ a.tbl-biru {
 
 a.about {
     color: #ffffff;
-    margin: 15px;
-    padding: 15px 20px 15px 20px;
-    font-size: 20px;
+    margin: 10px;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
 }
 
 .deskripsi {
@@ -127,12 +126,85 @@ a.about {
 }
 
 img {
-    padding: 20px;
-    width: 300px;
-    height: 300px;
-
+    padding: 30px;
+    width: 250px;
+    height: 250px;
 }
 
 a.contact {
-    margin: 30px;
+    color: #ffffff;
+    margin: 15px;
+    padding: 15px 20px 15px 20px;
+    font-size: 16px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    height: 45px;
+    width: 45px;
+    border-radius: 80%;
+}
+
+.kartu-tutor p {
+    font-size: 13px;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 991.98px) {
+    .home {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
 }
